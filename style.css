@@ -1,0 +1,339 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    /* background-color: green; */
+}
+
+.navbar ul{
+    display: flex;
+    align-items: center;
+    /* background-color: orange; */
+}
+
+.navbar li{
+    padding: 20px 25px;
+    list-style: none;
+}
+
+.navbar li a{
+    text-decoration: none;
+    color: hsl(238, 22%, 44%);
+}
+
+.principal{
+    display: flex;
+    margin: 100px 0;
+}
+
+.principal .box{
+    width: 50%;
+    align-self: center;
+}
+
+.principal .box-2 img{
+    width: 100%;
+}
+
+.principal .box-1 h2{
+    font-family: 'Raleway', sans-serif;
+    color: hsl(243, 87%, 12%);
+    font-size: 2.3rem;
+    line-height: 3.5rem;
+}
+
+.principal .box-1 p{
+    margin: 20px 0;
+    color:  hsl(238, 22%, 44%);
+}
+
+.principal .box-1 .input-text{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.principal .box-1 .input-text input[type = email]{
+    border: 1px solid  hsl(238, 22%, 44%);
+    padding: 10px;
+    width: 50%;
+    color: hsl(238, 22%, 44%);
+}   
+
+.principal .box-1 .input-text .blue-button{
+    width: 35%;
+    border: 0;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 700;
+    background-color: hsl(224, 93%, 58%);
+    cursor: pointer;
+}
+
+.outer-container{
+    background-color: hsl(240, 75%, 98%);
+    border-radius: 52% 48% 10% 10% / 31% 31% 0% 1% ;
+}
+
+.secundary{
+    display: flex;
+}
+
+.secundary .box-3, .secundary .box-4{
+    width: 50%;
+}
+
+.secundary .box-3 h2{
+    font-family: 'Raleway', sans-serif;
+    color: hsl(243, 87%, 12%);
+    font-size: 2.1rem;
+    line-height: 3.5rem;
+}
+
+.secundary .box-3 p{
+    margin: 20px 0;
+    color:  hsl(238, 22%, 44%);
+}
+
+.secundary .box-3 .link-container{
+    display: inline-block;
+    font-weight: 700;
+    border-bottom: 1px solid hsl(170, 45%, 43%);
+}
+
+.secundary .box-3 .link{
+    text-decoration: none;
+    color: hsl(170, 45%, 43%);
+    padding-bottom: 3px;
+}
+
+.secundary .box-4 img{
+    width: 100%;
+}
+
+.secundary .comment{
+    width: 70%;
+    background-color: #fff;
+    box-shadow: -2px 1px 28px -6px rgba(0,0,0,0.25);
+    -webkit-box-shadow: -2px 1px 28px -6px rgba(0,0,0,0.25);
+    -moz-box-shadow: -2px 1px 28px -6px rgba(0,0,0,0.25);
+    border-radius: 15px;
+    padding: 30px 40px;
+    margin: 40px 0;
+}
+
+.secundary .comment .profile{
+    display: flex;
+}
+
+.secundary .comment .profile .profile-image img{
+    border-radius: 50%;
+    width: 70px;
+}
+
+.secundary .comment .profile .titles{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.secundary .comment .profile .titles h3{
+    font-size: 1rem;
+    font-weight: 800;
+    font-family: 'Raleway', sans-serif;
+}
+
+.secundary .comment .profile .titles h4{
+    font-size: .8rem;
+}
+
+.outer-container-blue{
+    background-color: hsl(238, 22%, 44%);
+}
+
+.blue-container{
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+}
+
+.blue-container .box-5, .blue-container .box-6{
+    width: 50%;
+    padding: 70px 40px;
+
+}
+
+.blue-container .box-5 h3{
+    font-size: 2rem;
+    font-weight: 800;
+    font-family: 'Raleway', sans-serif;
+}
+
+.blue-container .box-5 p{
+    margin: 20px 0;
+}
+
+
+.blue-container .box-6{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    /* align-items: center; */
+}
+
+.blue-container .box-6 input[type="email"]{
+    display: block;
+    width: 100%;
+    padding: 20px 30px;
+    border: 0pt;
+    border-radius: 5px;
+    color: hsl(238, 22%, 44%);
+    margin: 10px 0;
+}
+
+.blue-container .box-6  .blue-button2{
+    width: 35%;
+    padding: 20px;
+    border: 0;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 700;
+    background-color: hsl(224, 93%, 58%);
+    cursor: pointer;
+}
+
+
+.outer-footer{
+    background-color: hsl(243, 87%, 12%);
+}
+
+.footer{
+    padding: 50px 30px;
+}
+
+.footer .footer-container{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.footer-container .square{
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-container .square ul li{
+    list-style: none;
+    padding: 10px;
+}
+
+.footer-container .square ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-container .square ul li a:hover{
+    color: hsl(224, 93%, 58%);
+}
+
+@media only screen and (max-width: 700px) {
+
+    .navbar{
+        flex-direction: column;
+    }
+
+    .principal{
+        flex-direction: column;
+    }
+
+    .principal .box{
+        width: 100%;
+        align-self: center;
+    }
+
+    .principal .box-1{
+        text-align: center;
+        order: 2;
+    }
+
+    .principal .box-1 .input-text{
+        flex-direction: column;
+        justify-content: center;
+        align-self: center;
+        text-align: center;
+    }
+
+    .principal .box-1 .input-text input[type = email]{
+        width: 100%;
+        
+    }   
+    
+    .principal .box-1 .input-text .blue-button{
+        width: 100%;
+        padding: 20px;
+    }
+
+    .secundary{
+        flex-direction: column;
+    }
+    
+    .secundary .box-3, .secundary .box-4{
+        width: 100%;
+    }
+
+    .secundary .box-3{
+        order: 2;
+        text-align: center;
+    }
+
+    .secundary .comment{
+        width: 100%;
+        text-align: left;
+    }
+    
+    .blue-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .blue-container .box-5, .blue-container .box-6{
+        width: 100%;
+        padding: 30px 30px;
+    }
+
+    .blue-container .box-5{
+        text-align: center;
+        margin: 10px;
+    }
+
+
+    .blue-container .box-6  .blue-button2{
+        width: 100%;
+    }
+
+
+    .footer .footer-container{
+        flex-direction: column;
+    }
+
+    .footer .footer-container .square{
+        margin: 20px 0;
+    }
+} 
